@@ -42,12 +42,11 @@
     NSLog(@"%@",muArray0[3]);
     NSLog(@"%@",[muArray0 objectAtIndex:3]);
     
-//    [muArray0 addObject:nil];
     NSObject *objc = nil;
+    [muArray0 addObject:objc];
     NSDictionary *dict = @{@"12":objc};
     NSDictionary *dict1 = [NSDictionary dictionaryWithObject:objc forKey:@"222"];
     NSMutableDictionary *muDict = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"value",@"key",objc,@"key1", nil];
-//    [dict setValue:objc forKey:@"222"];
     [muDict setObject:objc forKey:@"111"];
     NSDictionary *dict2 = [NSDictionary dictionaryWithObjectsAndKeys:objc,@"key1", nil];
     

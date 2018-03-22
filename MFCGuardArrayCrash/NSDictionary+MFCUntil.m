@@ -42,9 +42,7 @@
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-//        [self gl_swizzleMethod:@selector(initWithObjects:forKeys:count:) withMethod:@selector(gl_initWithObjects:forKeys:count:)];
-//        [self gl_swizzleClassMethod:@selector(dictionaryWithObjects:forKeys:count:) withMethod:@selector(gl_dictionaryWithObjects:forKeys:count:)];
-////
+
         Method oldObjectAtIndex1 = class_getInstanceMethod(objc_getClass("__NSPlaceholderDictionary"), @selector(initWithObjects:forKeys:count:));
         Method newObjectAtIndex1 = class_getInstanceMethod(objc_getClass("__NSPlaceholderDictionary"), @selector(gl_initWithObjects:forKeys:count:));
         method_exchangeImplementations(oldObjectAtIndex1, newObjectAtIndex1);
