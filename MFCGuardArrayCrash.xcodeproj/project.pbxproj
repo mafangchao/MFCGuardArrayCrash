@@ -19,7 +19,6 @@
 		9B3A83E32043EA8F0030232C /* NSArray+MFCUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A83E22043EA8F0030232C /* NSArray+MFCUntil.m */; };
 		9BAC62F420611B5600569AF4 /* NSMutableArray+MFCUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC62F320611B5600569AF4 /* NSMutableArray+MFCUntil.m */; };
 		9BAC62F72061FE4000569AF4 /* NSDictionary+MFCUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC62F62061FE4000569AF4 /* NSDictionary+MFCUntil.m */; };
-		9BAC62FA20620A0700569AF4 /* NSMutableDictionary+MFCUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC62F920620A0700569AF4 /* NSMutableDictionary+MFCUntil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +62,6 @@
 		9BAC62F320611B5600569AF4 /* NSMutableArray+MFCUntil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MFCUntil.m"; sourceTree = "<group>"; };
 		9BAC62F52061FE4000569AF4 /* NSDictionary+MFCUntil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MFCUntil.h"; sourceTree = "<group>"; };
 		9BAC62F62061FE4000569AF4 /* NSDictionary+MFCUntil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MFCUntil.m"; sourceTree = "<group>"; };
-		9BAC62F820620A0700569AF4 /* NSMutableDictionary+MFCUntil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+MFCUntil.h"; sourceTree = "<group>"; };
-		9BAC62F920620A0700569AF4 /* NSMutableDictionary+MFCUntil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+MFCUntil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +118,6 @@
 				9BAC62F320611B5600569AF4 /* NSMutableArray+MFCUntil.m */,
 				9BAC62F52061FE4000569AF4 /* NSDictionary+MFCUntil.h */,
 				9BAC62F62061FE4000569AF4 /* NSDictionary+MFCUntil.m */,
-				9BAC62F820620A0700569AF4 /* NSMutableDictionary+MFCUntil.h */,
-				9BAC62F920620A0700569AF4 /* NSMutableDictionary+MFCUntil.m */,
 				9B3A83AC2043EA7C0030232C /* AppDelegate.h */,
 				9B3A83AD2043EA7C0030232C /* AppDelegate.m */,
 				9B3A83AF2043EA7C0030232C /* ViewController.h */,
@@ -295,7 +290,6 @@
 				9BAC62F72061FE4000569AF4 /* NSDictionary+MFCUntil.m in Sources */,
 				9B3A83AE2043EA7C0030232C /* AppDelegate.m in Sources */,
 				9B3A83E32043EA8F0030232C /* NSArray+MFCUntil.m in Sources */,
-				9BAC62FA20620A0700569AF4 /* NSMutableDictionary+MFCUntil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
